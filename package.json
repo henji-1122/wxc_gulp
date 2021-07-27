@@ -1,0 +1,35 @@
+{
+  "name": "wxc-gulp-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "wxc<2475886163@qq.com>(https://github.com/henji-1122)",
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp build",
+    "develop": "gulp develop"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^4.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
